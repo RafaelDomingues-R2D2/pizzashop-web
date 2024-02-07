@@ -9,6 +9,7 @@ export function AuthLayout() {
           <Pizza className="h-5 w-5" />
           <span className="font-semibold">Pizza Shop</span>
         </div>
+
         <footer className="text-sm">
           Painel de parceito &copy; Pizza Shop - {new Date().getFullYear()}
         </footer>
