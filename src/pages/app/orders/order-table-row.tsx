@@ -133,7 +133,7 @@ export function OrderTablerRow({ order }: OrderTableRowProps) {
         {order.status === 'processing' && (
           <Button
             onClick={() => dispatchOrderFn({ orderId: order.orderId })}
-            disabled={isDeliveringOrder}
+            disabled={isDispatchingOrder}
             variant="outline"
             size="xs"
           >
